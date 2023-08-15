@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+header {
+    display: inline;
+}
+
+nav {
+    background-color: royalblue;
+    padding: 3px;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav .logo {
+    float: left;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    background: royalblue;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #1C658C;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 5px #364e68,
+        0 0 10px #132238;
+}
+
+
+main {
+    margin: 10px;
+}
+
+#about {
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+    background-color: royalblue;
+    border: 1px solid transparent;
+    border-radius: 20px ;
+}
+
+article .image {
+    width: 60%;
+    margin: auto;
+}
+
+article .content1 {
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 20px ;
+}
+
+article .content1 h3{
+    color: blue;
+    font-size: 26px;
+    margin: 3px;
+}
+
+article .content1 h2    {
+    font-size: 36px ;
+    margin: 3px ;
+}
+
+article .content1 p {
+    font-size: 20px;
+    margin: 3px;
+}
+
+.content1 button{
+    background-color: #39A2DB;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 20px ;
+}
+
+.content1 button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    background-color: royalblue;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px ;
+}
+
+article #skill{
+    margin: 10px;
+}
+
+#skill h2{
+    text-align: center;
+    font-size: 32px;
+}
+
+.card1 {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.card2 {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.card3 {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.content2 {
+    display: flex;
+    margin: 10px 10px 40px 10px;
+}
+
+.content2 img {
+    width: 100%;
+    margin: auto;
+}
+
+.content2 h3{
+    color: black;
+    font-size: 28px;
+    text-align: center;
+}
+
+fieldset{
+    background-color: royalblue;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+}
+
+fieldset h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+fieldset p{
+    font-size: 20px;
+    text-align: center;
+}
+
+fieldset label {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+input[type="text"], input[type="email"] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+textarea {
+    width: 92%;
+    margin: 5px 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+form button {
+    background-color: #000000;
+    padding: 20px;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: royalblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #about {
+        width: 90%;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .article image {
+        width: 100%;
+        padding: 0;
+    }
+
+    .content2 {
+        width: 90%;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .content2 .card1 {
+        width: 100%;
+        padding: 0;
+        margin-right: 20px;
+    }
+    .content2 .card2 {
+        width: 100%;
+        padding: 0;
+        margin-right: 20px;
+    }
+    .content2 .card3 {
+        width: 100%;
+        padding: 0;
+        margin-right: 20px;
+    }
+}

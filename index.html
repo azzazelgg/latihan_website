@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Hallo
+            </div>
+
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skill">skills</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- Artikel 1 -->
+        <article id="about">
+            <div class="image">
+                <img src="Hand coding-rafiki.svg" alt="gambar coding">
+            </div>
+
+            <div class="content1">
+                <h3>Hi, I'm a </h3>
+                <h2>Keny Novalian Putra</h2>
+                <p>Nama saya Keny Novalian Putra biasa dipanggil Keny saya sekarang bersekolah di SMK Krian 1 dan mengambil jurusan RPL atau Rekayasa Perangkat Lunak tahun ini saya berumur 18 tahun</p>
+
+                <button id="donwloadButton">
+                    <a href="barcelona.jpg">Download CV</a>
+                </button>
+            </div>
+        </article>
+
+        <!-- Article 2 -->
+        <div class="container">
+            <article id="skill">
+                <h2>Skills</h2>
+                <!-- Skill 1 -->
+                <div class="content2">
+                <section class="card1">
+                    <img src="Hand coding-rafiki.svg" alt="gambar coding" width="20%">
+    
+                    <h3>Pemrograman</h3>
+                </section>
+    
+                <!-- Skill 2 -->
+                <section class="card2">
+                    <img src="Hand coding-rafiki.svg" alt="gambar coding" width="20%">
+    
+                    <h3>Jaringan</h3>
+                </section>
+    
+                <!-- Skill 3 -->
+                <section class="card3">
+                    <img src="Hand coding-rafiki.svg" alt="gambar coding" width="20%">
+    
+                    <h3>Desain</h3>
+                </section>
+                </div>
+            </article>
+        </div>
+
+        <form>
+            <fieldset>
+                <h2>Kontak Saya</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit earum ut magnam eos.
+                </p>
+
+                <label for="nama">Nama :</label><br>
+                <input type="text" id="nama"><br>
+                
+                <label for="email">email :</label><br>
+                <input type="email" id="email"><br>
+
+                <label for="pesan">pesan :</label><br>
+                <textarea id="pesan" cols="30" rows="10"></textarea> 
+                <br>
+
+                <button>Kirim</button>
+            </fieldset>
+        </form>
+    </main>
+    
+    <footer>
+        <p>Pemrograman Web &copy; Mellania</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
